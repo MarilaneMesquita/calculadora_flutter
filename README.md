@@ -48,15 +48,15 @@ Não são permitidos operadores ou pontos decimais consecutivos.
 
 
 ## Estrutura do Aplicativo
-O aplicativo é organizado em torno do arquivo main.dart, que serve como o núcleo da aplicação, contendo toda a lógica necessária. 
-A classe CalculadoraApp é o ponto de partida, e dentro dela, encontramos o CalculadoraHomePage, um StatefulWidget que representa a tela principal. 
-O estado da calculadora é gerenciado pela classe CalculadoraHomePageState, que armazena a expressão digitada pelo usuário na variável inputUser e o resultado do cálculo na variável resultado.
-Para construir a interface do usuário, a função build é utilizada, enquanto a interação com os botões é tratada pelo método cliqueBotao, que responde aos eventos de clique. 
-O método calcularResultado processa a expressão inserida e retorna o resultado, enquanto funções como getColorTexto e getColorBotao definem as cores do texto e do fundo dos botões. 
-Além disso, a função isOperador verifica se um caractere é um operador, e fatorial calcula o fatorial de números inteiros.
-Os botões da calculadora são implementados através do componente personalizado BotaoCalculadora, que permite uma melhor personalização da aparência. 
-Para avaliar as expressões matemáticas inseridas, o aplicativo depende do pacote math_expressions, que fornece as funcionalidades necessárias para analisar e calcular as operações.
-Essas dependências, juntamente com o Flutter SDK, são fundamentais para garantir o funcionamento correto e eficiente do aplicativo.
+- O aplicativo é organizado em torno do arquivo main.dart, que serve como o núcleo da aplicação, contendo toda a lógica necessária. 
+- A classe CalculadoraApp é o ponto de partida, e dentro dela, encontramos o CalculadoraHomePage, um StatefulWidget que representa a tela principal. 
+- O estado da calculadora é gerenciado pela classe CalculadoraHomePageState, que armazena a expressão digitada pelo usuário na variável inputUser e o resultado do cálculo na variável resultado.
+- Para construir a interface do usuário, a função build é utilizada, enquanto a interação com os botões é tratada pelo método cliqueBotao, que responde aos eventos de clique. 
+- O método calcularResultado processa a expressão inserida e retorna o resultado, enquanto funções como getColorTexto e getColorBotao definem as cores do texto e do fundo dos botões. 
+- Além disso, a função isOperador verifica se um caractere é um operador, e fatorial calcula o fatorial de números inteiros.
+- Os botões da calculadora são implementados através do componente personalizado BotaoCalculadora, que permite uma melhor personalização da aparência. 
+- Para avaliar as expressões matemáticas inseridas, o aplicativo depende do pacote math_expressions, que fornece as funcionalidades necessárias para analisar e calcular as operações.
+- Essas dependências, juntamente com o Flutter SDK, são fundamentais para garantir o funcionamento correto e eficiente do aplicativo.
 
 ### Exemplos de utilização
 
