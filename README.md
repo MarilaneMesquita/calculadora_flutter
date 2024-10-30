@@ -2,20 +2,20 @@
 
 O Aplicativo de Calculadora Flutter foi desenvolvido para resolver o desafio da disciplina de Desenvolvimento Mobile II, é uma ferramenta prática e acessível, atendendo a diferentes perfis de usuários. Ele combina operações básicas, como adição e subtração, com funções avançadas, como potenciação e fatorial. Com um design simples e claro, facilitando a execução de cálculos diários.
 
-**Funcionalidades**
+## Funcionalidades
 O aplicativo é uma ferramenta versátil para cálculos diários, oferecendo operações matemáticas básicas, como adição, subtração, multiplicação e divisão, além de funções avançadas como potenciação e cálculo de fatorial.
 Com uma interface intuitiva, o aplicativo permite a entrada de números inteiros e decimais, contando com botões específicos para facilitar a inserção de valores. Um sistema de validação garante que expressões inválidas não sejam aceitas, evitando erros. 
 Para maior comodidade, o botão C limpa a expressão atual, enquanto o botão = calcula e exibe instantaneamente o resultado, proporcionando uma experiência de uso fluida e eficiente.
 
-**Instalações**
+## Instalações
 Para instalar e rodar esse projeto:
 
 1. Pré-requisitos:
-Instale o Flutter SDK. Consulte o site oficial de como seguir a instalação..(https://docs.flutter.dev/get-started/install)
+Instale o Flutter SDK. Consulte o site oficial de como seguir a instalação. (https://docs.flutter.dev/get-started/install)
 Use um editor de código como Visual Studio Code ou Android Studio.
 
 2. Clonar o repositório:
-      -git clone https://github.com/MarilaneMesquita/calculadora_flutter.git
+     - git clone https://github.com/MarilaneMesquita/calculadora_flutter.git
      - Ou extrair de uma pasta .zip
 
 3. Acesso ao diretório do projeto
@@ -27,7 +27,7 @@ flutter pub get
 5. Iniciando o aplicativo
 flutter run
 
-**Instruções de Uso**
+## Instruções de Uso
 Abrir o Aplicativo: Após a instalação, inicie o aplicativo em um dispositivo ou emulador.
 
 **Inserir Números e Operações:**
@@ -47,7 +47,7 @@ Não inicie expressões com operadores (exceto -).
 Não são permitidos operadores ou pontos decimais consecutivos.
 
 
-**Estrutura do Aplicativo**
+## Estrutura do Aplicativo
 O aplicativo é organizado em torno do arquivo main.dart, que serve como o núcleo da aplicação, contendo toda a lógica necessária. 
 A classe CalculadoraApp é o ponto de partida, e dentro dela, encontramos o CalculadoraHomePage, um StatefulWidget que representa a tela principal. 
 O estado da calculadora é gerenciado pela classe CalculadoraHomePageState, que armazena a expressão digitada pelo usuário na variável inputUser e o resultado do cálculo na variável resultado.
@@ -58,7 +58,7 @@ Os botões da calculadora são implementados através do componente personalizad
 Para avaliar as expressões matemáticas inseridas, o aplicativo depende do pacote math_expressions, que fornece as funcionalidades necessárias para analisar e calcular as operações.
 Essas dependências, juntamente com o Flutter SDK, são fundamentais para garantir o funcionamento correto e eficiente do aplicativo.
 
-**Exemplos de utilização**
+### Exemplos de utilização
 
 A calculadora realizar as seguintes operações:
 1. Potenciação (3^2 = 3*3 = 9)
